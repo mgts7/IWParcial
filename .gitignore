@@ -1,5 +1,5 @@
 # Compiled output (sin ignorar dist/)
-# dist/
+dist/
 node_modules
 build
 
