@@ -22,7 +22,7 @@
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "postinstall": "npm run build",
     "typeorm": "typeorm-ts-node-commonjs",
-    "render-build": "npm install && npm run build"
+    "render-build": "npm install && npm run build && cp -r src/public dist/ 2>/dev/null || true"
   },
   "dependencies": {
     "@nestjs/common": "^11.0.1",
